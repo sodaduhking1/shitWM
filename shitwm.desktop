@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=ShitWM
+Comment=A Custom window manager its shit hence the name
+Exec=/usr/bin/shitwm-session
+Type=Application
+DesktopNames=ShitWM

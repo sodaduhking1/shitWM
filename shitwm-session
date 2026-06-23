@@ -1,0 +1,9 @@
+#!/sh
+export PATH=/usr/local/bin:/usr/bin:/bin
+if [ -z "$XAUTHORITY" ]; then
+    export XAUTHORITY=$HOME/.Xauthority
+fi
+if [ -f /usr/bin/xauth ]; then
+    touch "$XAUTHORITY"
+fi
+exec /usr/bin/shitwm
